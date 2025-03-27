@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PROJECT</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+rel="stylesheet">
+<link rel="stylesheet" href="s.css">
+</head>
+<body>
+<div class="container">
+<h1 class="text-5xl py-11 text-center">Image Search Engine</h1>
+<form id="search-form" class="mb-4">
+<div class="flex justify-center">
+<input type="text" id="search-box" placeholder="Search anything"
+class="bg-gray-200 appearance-none border rounded py-2 px-2 text-gray-700
+leading-tight focus:outline-none focus:shadow-outline w-60">
+<button type="submit" class="ml-2 bg-blue-500 hover:bg-blue-700 text-white
+font-bold py-3 px-2 rounded focus:outline-none focus:shadow-outline">Search</button>
+</div>
+</form>
+<div id="search-result"></div>
+<div class="flex justify-center">
+<button id="show-more-btn" class="bg-blue-500 hover:bg-blue-700 text-white
+font-bold rounded focus:outline-none focus:shadow-outline">Show More</button>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
